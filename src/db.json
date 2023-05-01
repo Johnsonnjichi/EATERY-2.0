@@ -1,0 +1,126 @@
+{
+  "menus": [
+    {
+      "id": "1",
+      "title": "Crispy Spicy Fried chicken ",
+      "price": "800",
+      "orders_received": 15,
+      "order_capacity": 20,
+      "description": "Close-up Photo of Fried Chicken",
+      "image": "https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg"
+    },
+    {
+      "id": "2",
+      "title": "Beef Tasty ",
+      "price": "1200",
+      "orders_received": 17,
+      "order_capacity": 20,
+      "description": "Grilled Meat",
+      "image": "https://images.pexels.com/photos/2491273/pexels-photo-2491273.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": "3",
+      "title": "Indian Platter",
+      "price": "2500",
+      "orders_received": 5,
+      "order_capacity": 20,
+      "description": "White and Brown Cooked Dish on White Ceramic Bowls",
+      "image": "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": "4",
+      "title": "Burger",
+      "price": "890",
+      "orders_received": 10,
+      "order_capacity": 20,
+      "description": "Cheese Burger",
+      "image": "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": "5",
+      "title": "Spicy Fries",
+      "price": "500",
+      "orders_received": 20,
+      "order_capacity": 30,
+      "description": "French Fries With Red Sauce",
+      "image": "https://images.pexels.com/photos/115740/pexels-photo-115740.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": "6",
+      "title": "Salmon",
+      "price": "1500",
+      "orders_received": 10,
+      "order_capacity": 20,
+      "description": "Salmon Dish on a Ceramic Plate",
+      "image": "https://images.pexels.com/photos/3655916/pexels-photo-3655916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": "7",
+      "title": "Shallow Shrimp Dish",
+      "price": "3000",
+      "orders_received": 9,
+      "order_capacity": 20,
+      "description": "Shallow Focus Photo of Shrimp Dish",
+      "image": "https://images.pexels.com/photos/1998921/pexels-photo-1998921.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": "8",
+      "title": "Chicken Biryani",
+      "price": "800",
+      "orders_received": 10,
+      "order_capacity": 20,
+      "description": "Biryani Rice in a Bowl",
+      "image": "https://images.pexels.com/photos/12737656/pexels-photo-12737656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": "9",
+      "title": "Fried Rice",
+      "price": "1800",
+      "orders_received": 16,
+      "order_capacity": 20,
+      "description": "Fried Rice On A Pan",
+      "image": "https://images.pexels.com/photos/4940832/pexels-photo-4940832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": "10",
+      "title": "Black Cofee",
+      "price": "300",
+      "orders_received": 15,
+      "order_capacity": 35,
+      "description": "Black Strong Cofee",
+      "image": "https://images.pexels.com/photos/16152712/pexels-photo-16152712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "title": "bread",
+      "image": "https://www.thespruceeats.com/thmb/vbc6MqkqHlkSOx_X5Clyo5qv0kk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/loaf-of-bread-182835505-58a7008c5f9b58a3c91c9a14.jpg",
+      "price": "50",
+      "order_capacity": "5",
+      "orders_received": 0,
+      "id": "Bh43f6O"
+    },
+    {
+      "title": "Milkshake",
+      "image": "https://marleysmenu.com/wp-content/uploads/2021/07/Butterscotch-Milkshake-Recipe-Card-Image.jpg",
+      "price": "300",
+      "order_capacity": "10",
+      "orders_received": 0,
+      "id": "hiLAjdU"
+    },
+    {
+      "title": "Breead",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Fresh_made_bread_05.jpg",
+      "price": "60",
+      "order_capacity": "10",
+      "orders_received": 0,
+      "id": "q3Wgii5"
+    },
+    {
+      "title": "Taco",
+      "image": "https://www.thewholesomedish.com/wp-content/uploads/2019/06/The-Best-Classic-Tacos-550.jpg",
+      "price": "600",
+      "order_capacity": "10",
+      "orders_received": 0,
+      "id": "tv3n-f8"
+    }  
+  ]
+}
