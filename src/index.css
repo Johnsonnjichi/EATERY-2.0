@@ -15,11 +15,59 @@ code {
 img{
   height: 300px;
   width: 300px;
-  float: left;
+  margin-left: 50px;
   
   
 }
 
-ul {
-  float: left;
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+
 }
+
+ul {
+  list-style: circle;
+}
+
+li {
+  cursor: pointer;
+
+}
+
+body {
+  background: lightblue;
+}
+
+.heading {
+  align-items: center;
+}
+
+.container {
+  margin: 20px;
+
+}
+
+
+.display-right {
+  float: right;
+  margin-right: 100px;
+  margin-bottom: 30px;
+}
+
+#menuslist {
+  float: left;
+  padding: 10px;
+  margin-left: 80px;
+  margin-bottom: 90px;
+}
+
+.createmenu {
+
+  float: left;
+  margin-bottom: 100px;
+  margin-top: 30px;
+
+}
+

@@ -1,11 +1,13 @@
 import React, {useState, useEffect} from 'react'
+import CreateMenuItemForm from './CreateForm';
 
 
 function Menus() {
   const [menus, setMenus] = React.useState([]);
   const [selectedMenu, setSelectedMenu] = React.useState(null);
 
-  React.useEffect(() => {
+
+  useEffect(() => {
     fetch("http://localhost:4300/menus")
       .then((res) => res.json())
       .then((menus) => setMenus(menus));
@@ -16,8 +18,27 @@ function Menus() {
     setSelectedMenu(menu);
   }
 
+  const addMenu = (newmenu) => {
+    setMenus([...menus, newmenu])
+  }
+
+  // function handleCreateMenuItem(data) {
+  //   fetch("http://localhost:4300/menus", {
+  //     method: "POST",
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //     },
+  //     body: JSON.stringify(data),
+  //   })
+  //     .then((res) => res.json())
+  //     .then((menu) => { setMenus((prevMenus) => [...prevMenus, menu]);
+  //       setSelectedMenu(menu);
+  //     });
+  // }
+
   return (
     <>
+      <CreateMenuItemForm addMenu={addMenu} />
       <ul id="menus">
         {menus.map((menu) => (
           <li key={menu.title} onClick={() => renderSingleMenu(menu.title)}>
@@ -29,10 +50,10 @@ function Menus() {
         <div>
           <img src={selectedMenu.image} alt={selectedMenu.title} />
           <h2>{selectedMenu.title}</h2>
-          <p>{selectedMenu.price}</p>
+          <p>Price:{selectedMenu.price}</p>
           <p>
-            {selectedMenu.order_capacity - selectedMenu.orders_received} orders
-            left
+            Orders remaining:
+            {selectedMenu.order_capacity - selectedMenu.orders_received}
           </p>
           <button id="place-order">Place Order</button>
         </div>
@@ -40,30 +61,5 @@ function Menus() {
     </>
   );
 }
-
-
-
-// function Menus() {
-//   const [menus, setMenus] = React.useState([]);
-
-//   React.useEffect(() => {
-//     fetch("http://localhost:4300/menus")
-//       .then((res) => res.json())
-//       .then((menus) => setMenus(menus));
-//   }, []);
-
-//   return (
-//     <ul id="menus">
-//       {menus.map((menu) => (
-//         <li key={menu.title}>{menu.title}</li>
-//       ))}
-//     </ul>
-//   );
-
-
-// }
-
-    
-
 
 export default Menus
